@@ -22,4 +22,13 @@ int _isdigit(int c);
  * Return: product of two integers
  */
 int mul(int a, int b);
+
+/**
+ * print_numbers - Function that prints numbers followed by a new line
+ * @d: variable of type int
+ * Return: void
+ */
+void prnt_numbers(void);
+
+
 #endif
