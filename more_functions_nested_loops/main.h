@@ -15,4 +15,11 @@ int _isupper(int c);
  * Decription: return is not void
  */
 int _isdigit(int c);
+
+/**
+ * mul - Function that multiplies two integers
+ * @d: variable of type int
+ * Return: product of two integers
+ */
+int mul(int a, int b);
 #endif
