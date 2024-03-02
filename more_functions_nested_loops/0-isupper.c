@@ -4,7 +4,7 @@
  *_isupper - Checks for uppercase
  *@c: char variable
  *Returns: 1 if c is uppercase and 0 otherwise
- *Decription - End of loop at 1 for uppercase or 0 otherwise
+ *Decription: Return is not void
  */
 int _isupper(int c)
 {
