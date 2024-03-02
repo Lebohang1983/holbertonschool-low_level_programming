@@ -2,7 +2,8 @@
 
 /**
  *mul - multiplies two integers
- *@d: integer
+ *@a: first integer
+ *@b: second integer
  *Return: returns product of two numbers
  */
 int mul(int a, int b)
