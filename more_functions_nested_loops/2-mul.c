@@ -7,9 +7,10 @@
  */
 int mul(int a, int b)
 {
-	if a = 3, b =3;
+	int a = 3;
+	int b = 3;
 	{
-		return (9);
+		printf("%d",a*b);
 	}
 	return (0);
 }
