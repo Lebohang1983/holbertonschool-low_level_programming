@@ -28,7 +28,14 @@ int mul(int a, int b);
  * @d: variable of type int
  * Return: void
  */
-void prnt_numbers(void);
+void print_numbers(void);
+
+/**
+ * _putchar - Function that prints characters
+ * @c: variable of type char
+ */
+
+int _putchar(char c);
 
 
 #endif
