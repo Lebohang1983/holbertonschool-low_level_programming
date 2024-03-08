@@ -1,3 +1,3 @@
-$ ./0-putchar
+$ ./0-_putchar
 _putchar
 $ 
