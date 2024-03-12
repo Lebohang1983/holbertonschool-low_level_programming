@@ -19,4 +19,12 @@ void print_alphabet(void);
  *i is the interger that shows the number of times the alphabet will be printed
  */
 void print_alphabet_x10(void);
+
+/**
+ * _islower - check if the given character is lower case.
+ * @c: character to test.
+ * Return: 1 (True) else 0 (False)
+ */
+int _islower(char c)
+
 #endif
