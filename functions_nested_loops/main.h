@@ -39,6 +39,6 @@ int _isalpha(int c);
  * @n: Number to be tested
  * Return: 1 if positive and greater than zero, 0 if is Zero, and -1 if neg.
  */
-int print_sign(int n)
+int print_sign(int n);
 
 #endif
