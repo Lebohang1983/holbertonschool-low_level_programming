@@ -76,4 +76,10 @@ void times_table(void);
  */
 int add(int a, int b);
 
+/**
+ * print_to_98 - count the natural numbers from n to 98.
+ * @n: value to count from.
+ */
+void print_to_98(int n);
+
 #endif
