@@ -53,4 +53,10 @@ void more_numbers(void);
  */
 void print_line(int n);
 
+/**
+ * print_diagonal - print a diagonal line to a given lenth.
+ * @n: length to print to.
+ */
+void print_diagonal(int n);
+
 #endif
