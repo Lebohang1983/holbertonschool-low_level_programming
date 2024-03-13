@@ -69,7 +69,7 @@ void print_square(int size);
  * main - Entry point
  * Return: always 0 (sucess)
  */
-void print_triangle(int size):
+void print_triangle(int size);
 
   /*
  * int i: for iteration in for loop also use as a way to subtract.

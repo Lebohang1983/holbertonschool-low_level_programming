@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_triangle - print a triangle at a give size.
@@ -26,7 +27,7 @@ void print_triangle(int size)
 	{
 /*
  * we set the margin to Zero every iteration. since we're try to only print
- * the right amount of white space. we do some math to dis to set the stopping
+ * the right amount of white space. we do some math to this to set the stopping
  * point
  */
 		margin = 0;
