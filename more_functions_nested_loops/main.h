@@ -47,5 +47,10 @@ void print_most_numbers(void);
  */
 void more_numbers(void);
 
+/**
+ * print_line - prints a line to a given lenght.
+ * @n: length of the line.
+ */
+void print_line(int n);
 
 #endif
