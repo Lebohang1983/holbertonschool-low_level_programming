@@ -69,6 +69,19 @@ void print_square(int size);
  * main - Entry point
  * Return: always 0 (sucess)
  */
-int main(void);
+void print_triangle(int size):
+
+  /*
+ * int i: for iteration in for loop also use as a way to subtract.
+ * int margin: will recored the amount of whitesapce ill need to print.
+ * int dis"tance": is used to offset size.
+ * int to_print: is used to tell how many '#' will need to be print per-line
+ */
+
+  /*
+ * we set the margin to Zero every iteration. since we're try to only print
+ * the right amount of white space. we do some math to dis to set the stopping
+ * point
+ */
 
 #endif
