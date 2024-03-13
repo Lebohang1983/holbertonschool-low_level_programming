@@ -65,5 +65,10 @@ void print_diagonal(int n);
  */
 void print_square(int size);
 
+/**
+ * main - Entry point
+ * Return: always 0 (sucess)
+ */
+int main(void);
 
 #endif
