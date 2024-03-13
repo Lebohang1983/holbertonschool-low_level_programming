@@ -33,4 +33,12 @@ int _islower(int c);
  * Return: 1 if character is a letter,lowercase or uppercase and 0 otherwise
  */
 int _isalpha(int c);
+
+/**
+ * print_sign - prints the sign of the given number +/-
+ * @n: Number to be tested
+ * Return: 1 if positive and greater than zero, 0 if is Zero, and -1 if neg.
+ */
+int print_sign(int n)
+
 #endif
