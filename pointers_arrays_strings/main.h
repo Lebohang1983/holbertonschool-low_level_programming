@@ -26,9 +26,10 @@ int _strlen(char *s);
  */
 void _puts(char *str);
 
-/**
- * print_rev - minic the stdio version of puts
- * @s: the value to process to the stdout in reverse.
+/*  
+ * print_rev - print a string in reverse followed by a new line                                                                     
+ * @s:pointer char
+ * return:void
  */
 void print_rev(char *s);
 
