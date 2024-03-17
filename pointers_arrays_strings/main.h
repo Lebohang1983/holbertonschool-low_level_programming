@@ -7,6 +7,7 @@
 void reset_to_98(int *n);
 
 /**
+ * swap_int - a function that swaps the values of two integers
  * @a: one of two points to be swaped
  * @b: two of two points to be swapped
  */
