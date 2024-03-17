@@ -26,4 +26,10 @@ int _strlen(char *s);
  */
 void _puts(char *str);
 
+/**
+ * print_rev - minic the stdio version of puts
+ * @s: the value to process to the stdout in reverse.
+ */
+void print_rev(char *s);
+
 #endif
