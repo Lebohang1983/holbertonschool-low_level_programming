@@ -1,5 +1,5 @@
-
 #include "main.h"
+#include <stdio>
 
 /**
  * _puts - minic the stdio version of puts
