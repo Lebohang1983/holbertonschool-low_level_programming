@@ -20,13 +20,14 @@ void swap_int(int *a, int *b);
   */
 int _strlen(char *s);
 
-/**
- * _puts - minic the stdio version of puts
- * @str: the value to process to the stdout.
- */
+/**                                                                                       
+  * _puts - Prints a string                                                               
+  * @str: The string to print                                                             
+  * Return: void
+  */
 void _puts(char *str);
 
-/*  
+/**  
  * print_rev - print a string in reverse followed by a new line                          
  * @s:pointer char
  * return:void
