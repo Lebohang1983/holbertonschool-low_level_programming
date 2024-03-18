@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _puts - minic the stdio version of puts
@@ -7,7 +6,7 @@
  */
 void _puts(char *str)
 {
-	while (str > 0)
+	while (str >= 1)
 	{
 		_puts(str);
 		str++;
