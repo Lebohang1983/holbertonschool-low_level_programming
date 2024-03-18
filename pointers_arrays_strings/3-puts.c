@@ -6,7 +6,7 @@
  */
 void _puts(char *str)
 {
-	while (str >= 1)
+	while (str)
 	{
 		_puts(str);
 		str++;
