@@ -35,5 +35,11 @@ int _putchar(char c);
   */
 void print_rev(char *s);   
  
-
+/**                                                                                                                            
+  * rev_string - Reverses a string
+  * @s: The string to be modified    
+  * Return: void
+  */
+void rev_string(char *s)
+  
 #endif
