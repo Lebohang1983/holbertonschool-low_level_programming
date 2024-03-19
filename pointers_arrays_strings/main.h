@@ -28,11 +28,12 @@ int _strlen(char *s);
 void _puts(char *str);
 int _putchar(char c);
 
-/**  
- * print_rev - print a string in reverse followed by a new line                          
- * @s:pointer char
- * return:void
- */
-void print_rev(char *s);
+/**
+  * print_rev - Prints a string in reverse
+  * @s: The string to print
+  * Return: void 
+  */
+void print_rev(char *s);   
+ 
 
 #endif
