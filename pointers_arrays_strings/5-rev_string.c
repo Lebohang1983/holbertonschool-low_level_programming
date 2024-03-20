@@ -3,24 +3,21 @@
 /**
   * rev_string - reverse a string.
   * @s: string to reverse
+  * return: void
   */
 
 void rev_string(char *s)
 {
-	int start;
-	int end = 0;
+	int a, b, c;
+	char h;
 
-	while (*s)
+	for (a = 0; s[a] != '\0'; a++)
+		;
+	c = a;
+	for (a--, b = 0; b < c / 2; a--,b++)
 	{
-		end++;
-	}
-	end -= 1;
-	start = 0;
-	while (*s)
-	{
-		s[end];
-		start++;
-		end--;
+		h = s[b];
+		s[b] = s[a];
+		s[a] = h;
 	}
 }
-
