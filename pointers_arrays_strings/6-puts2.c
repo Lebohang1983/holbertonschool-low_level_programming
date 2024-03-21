@@ -10,9 +10,9 @@ void puts2(char *str)
 {
 	int i ;
 	
-	for (i = 0; i =< 9; s[i] != '\0')
+	for (i = 0; i =< 9; str++)
 	  {
-	  put2(str++);
+	  puts2(str);
 	  }
 	return (0)
 }
