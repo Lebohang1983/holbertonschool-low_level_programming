@@ -50,5 +50,6 @@ void rev_string(char *s);
   * return: void
   */
 void puts2(char *str);
+int _putchar(char c);
 
 #endif
