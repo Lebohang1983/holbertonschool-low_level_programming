@@ -12,7 +12,6 @@ void puts2(char *str)
 	
 	for (i = 0; i =< 9; str++)
 	  {
-	  puts2(str);
+	  puts2(*str);
 	  }
-	return (0)
 }
