@@ -1,18 +1,26 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * puts2 - every other char.
+ * puts_half - print half of a string.
  * @str: string to process.
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
-	int i;
+	int len = 0;
 
-	for (i = 0; str[i] != '\0' ; i++)
+	while (*(str + len) != '\0')
 	{
-		if ((i % 2) == 0)
-			_putchar(*(str + i));
+		len++;
+	}
+	if (!(len % 2))
+		len /= 2;
+	else
+		len = (len + 1) / 2;
+
+	while (*(str + len) != '\0')
+	{
+		_putchar(*(str + len));
+		len++;
 	}
 	_putchar('\n');
 }
