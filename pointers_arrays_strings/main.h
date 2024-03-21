@@ -42,14 +42,10 @@ void print_rev(char *s);
   */
 void rev_string(char *s);
 
-#include "main.h"
-
-/**  
-  * puts2 - function that prints every other character
-  * @str: string characters to print starting from the first character
-  * return: void
-  */
+/**                                                                                       
+ * puts2 - every other char
+ * @str: string to process
+ */
 void puts2(char *str);
-int _putchar(char c);
 
 #endif
