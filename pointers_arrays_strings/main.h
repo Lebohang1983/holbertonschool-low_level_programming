@@ -49,6 +49,6 @@ void rev_string(char *s);
   * @str: string characters to print starting from the first character
   * return: void
   */
-void puts2(char *str)
+void puts2(char *str);
 
 #endif
