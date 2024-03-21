@@ -6,15 +6,16 @@
  * @src: the string to copy to the destination.
  * Return: a copy of the src.
  */
-char *_strcpy(char *dest, char *src)
+
+char *_strcpy(char *dest, const char *src)
 {
 	int index = 0;
 
-	while (*src != '\0')
+	while (src[index])
 	{
-		dest[index] = *src;
+		dest[index] = src[index];
 		index++;
-		src++;
 	}
+
 	return (dest);
 }
