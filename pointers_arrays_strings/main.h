@@ -55,6 +55,7 @@ void puts2(char *str);
  */
 void print_array(int *a, int n);
 
+
 /**
  * _strcpy - fuction copies the string pointed
  * @dest: pointer to copy the string to.
@@ -77,5 +78,14 @@ int _atoi(char *s);
  * Return: a pointer to @dest
  */
 char *_strcat(char *dest, char *src);
+
+/**
+ * _strncat - this fuction will concatenates two strings
+ * @dest: the string that will modified.
+ * @src: the string that ill be concatenated to @dest.
+ * @n: copy up to poistion 'n'
+ * Return: a pointer to @dest
+ */
+char *_strncat(char *dest, char *src, int n);
 
 #endif
