@@ -69,5 +69,13 @@ char *_strcpy(char *dest, char *src);
  * Return: The integer value of the converted string.
  */
 int _atoi(char *s);
-  
+
+/**
+ * _strcat - this fuction will concatenates two strings
+ * @dest: the string that will modified.
+ * @src: the string that ill be concatenated to @des.
+ * Return: a pointer to @dest
+ */
+char *_strcat(char *dest, char *src);
+
 #endif
