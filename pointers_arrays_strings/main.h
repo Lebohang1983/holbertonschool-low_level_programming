@@ -133,4 +133,11 @@ int is_sep(char s);
 */
 char *cap_string(char *s);
 
+/**
+ * leet - breaking out the leet speak.
+ * @s: string to make 1337
+ * Return: a point the s
+ */
+char *leet(char *s);
+
 #endif
