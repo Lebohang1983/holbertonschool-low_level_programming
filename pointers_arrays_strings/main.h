@@ -112,4 +112,11 @@ int _strcmp(char *s1, char *s2);
  */
 void reverse_array(int *a, int n);
 
+/**
+ * string_toupper - uppercase all lower case letters in a string.
+ * @s: string to process.
+ * Return: a pointer.
+ */
+char *string_toupper(char *s);
+
 #endif
