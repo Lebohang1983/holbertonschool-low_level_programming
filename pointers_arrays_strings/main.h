@@ -97,4 +97,12 @@ char *_strncat(char *dest, char *src, int n);
  */
 char *_strncpy(char *dest, char *src, int n);
 
+/**
+ * _strcmp - compare to strings
+ * @s1: the string to compare agenst.
+ * @s2: the string to compare.
+ * Return: a int value.
+ */
+int _strcmp(char *s1, char *s2);
+
 #endif
