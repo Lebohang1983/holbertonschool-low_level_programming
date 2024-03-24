@@ -88,4 +88,13 @@ char *_strcat(char *dest, char *src);
  */
 char *_strncat(char *dest, char *src, int n);
 
+/**
+ * _strncpy - this fuction will concatenates two strings
+ * @dest: the string that will modified.
+ * @src: the string that ill be concatenated to @des.
+ * @n: how much to copy from src into dest.
+ * Return: a pointer to @des
+ */
+char *_strncpy(char *dest, char *src, int n);
+
 #endif
