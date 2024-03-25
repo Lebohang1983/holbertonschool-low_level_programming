@@ -149,4 +149,14 @@ char *leet(char *s);
  */
 char *_memset(char *s, char b, unsigned int n);
 
+
+/**
+ * _memcpy - fuction that copies n bytes from a source to a destination.
+ * @dest: destionation for the copying the bytes to.
+ * @src: source of the bytes to copy.
+ * @n: number of bytes to copy over.
+ * Return: a pointer to dest
+ */
+char *_memcpy(char *dest, char *src, unsigned int n);
+
 #endif
