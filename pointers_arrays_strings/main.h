@@ -193,4 +193,11 @@ char *_strpbrk(char *s, char *accept);
  */
 char *_strstr(char *haystack, char *needle);
 
+/**
+ * print_chessboard - prints a chestboard out and it's pieaces from a matrix;
+ * @a: matrix of the board and pieces current location.
+ * Return: Nothing
+ */
+void print_chessboard(char (*a)[8]);
+
 #endif
