@@ -184,4 +184,13 @@ unsigned int _strspn(char *s, char *accept);
  */
 char *_strpbrk(char *s, char *accept);
 
+
+/**
+ * _strstr - function that locates a substring.
+ * @haystack: source string to search through.
+ * @needle: string to search for.
+ * Return: return beginning of located substring or NULL.
+ */
+char *_strstr(char *haystack, char *needle);
+
 #endif
