@@ -209,4 +209,12 @@ void print_chessboard(char (*a)[8]);
  */
 void print_diagsums(int *a, int size);
 
+/**
+ * set_string - function that sets the value of a pointer to a char.
+ * @s: source for copy
+ * @to: string to copy to.
+ * Return: Nothing
+ */
+void set_string(char **s, char *to);
+
 #endif
