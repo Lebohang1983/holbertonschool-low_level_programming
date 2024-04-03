@@ -37,6 +37,22 @@ int factorial(int n);
  * @y: manipulator
  * Return: Sum as Int
  */
+
 int _pow_recursion(int x, int y);
+
+/**                                                                            
+ * sqrt_rec_odd - helper to deal with odd numbers and primes         
+ * @start: the odd or prime number to check for sqrt.                          
+ * @n: number to find the square root of.                                 
+ * Return: the sqrt as a Int.           
+ */
+
+int sqrt_rec_odd(int start, int n);
+/**
+ * _sqrt_recursion - find the square root of a given number.
+ * @n: number to find the square root of.
+ * Return: the sqrt as a Int.
+ */
+int _sqrt_recursion(int n);
 
 #endif
