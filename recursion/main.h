@@ -53,6 +53,22 @@ int sqrt_rec_odd(int start, int n);
  * @n: number to find the square root of.
  * Return: the sqrt as a Int.
  */
+
 int _sqrt_recursion(int n);
+
+/**
+ * prime_number - help fuction function for is_prime_number.
+ * @n: Original number to be tested.
+ * @i: Original number to test with.
+ * Return: 1 if a Prime else 0
+ */
+int prime_number(int n, int i);
+
+/**
+ * is_prime_number - fuction the check if a number is a prime.
+ * @n: number to be tested.
+ * Return: 1 if a Prime else 0
+ */
+int is_prime_number(int n);
 
 #endif
