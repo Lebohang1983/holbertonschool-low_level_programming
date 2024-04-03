@@ -7,5 +7,12 @@
  */
 void _puts_recursion(char *s);
 int _putchar(char c);
-    
+
+/**
+ * _print_rev_recursion - function that prints a string in reverse.
+ * @s: string to print in reverse.
+ * Return: Nothing
+ */
+void _print_rev_recursion(char *s);
+
 #endif
