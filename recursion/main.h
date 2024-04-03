@@ -22,4 +22,11 @@ void _print_rev_recursion(char *s);
  */
 int _strlen_recursion(char *s);
 
+/**
+ * factorial - desciption
+ * @n: number to find the factorial for.
+ * Return: Factorial (INT)
+ */
+int factorial(int n);
+
 #endif
