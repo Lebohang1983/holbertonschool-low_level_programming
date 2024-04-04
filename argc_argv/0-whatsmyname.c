@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-/**                      
+/**
  * main - A programme that prints its name followed by a new line                   
  * Return: Always 0 (success)
  */
