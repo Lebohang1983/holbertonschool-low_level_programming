@@ -15,4 +15,12 @@ int main(int argc __attribute__((unused)), char *argv[]);
  */
 int main(int argc, char *argv[] __attribute__((unused)));
 
+
+/**
+ * main - prints the arguments plus the application name
+ * @argc: count
+ * @argv: string with the arguments
+ * Return: Always 0.
+ */
+int main(int argc, char *argv[]);
 #endif
