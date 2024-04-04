@@ -23,4 +23,13 @@ int main(int argc, char *argv[] __attribute__((unused)));
  * Return: Always 0.
  */
 int main(int argc, char *argv[]);
+
+/**
+ * main - multiplies two numbers
+ * @argc: counts the arguments.
+ * @argv: string array for the arguments entered
+ * Return: 0 (Sucess) else 1 (Failure).
+ */
+int main(int argc, char *argv[]);
+
 #endif
