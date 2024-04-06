@@ -24,4 +24,13 @@ char *_strdup(char *str);
  */
 char *str_concat(char *s1, char *s2);
 
+/**
+ * alloc_grid - function returns a pointer to a 2 dimensional array of
+ * integers.
+ * @width: colums.
+ * @height: rows.
+ * Return: Pointer to 2d array.
+ */
+int **alloc_grid(int width, int height);
+
 #endif
