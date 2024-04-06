@@ -16,4 +16,12 @@ char *create_array(unsigned int size, char c);
  */
 char *_strdup(char *str);
 
+/**
+ * str_concat - this function concatenates two strings.
+ * @s1: string 1/2 to concat.
+ * @s2: string 2/2 to concat.
+ * Return: Pointer to concatenated string.
+ */
+char *str_concat(char *s1, char *s2);
+
 #endif
