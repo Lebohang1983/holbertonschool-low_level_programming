@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- *malloc_checked- function that allocates memory
- *@ptr- returned pointer
- *@i- size of string
- *@b- interger
+ * malloc_checked - fuction that allocates memory
+ * @b: size of memory to allocate.
+ * Return: pointer to memory, Else if return exit status 98.
  */
 void *malloc_checked(unsigned int b)
 {

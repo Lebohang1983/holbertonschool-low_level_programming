@@ -2,11 +2,10 @@
 #define MAIN_H
 
 /** 
- *malloc_checke- function that allocates memory
- *@ptr- returned pointer
- *@i- size of string
- *@b- interger
+ * malloc_checked - fuction that allocates memory
+ * @b: size of memory to allocate.
+ * Return: pointer to memory, Else if return exit status 98.
  */
 void *malloc_checked(unsigned int b);
-int _putchar(char c);
+
 #endif 
