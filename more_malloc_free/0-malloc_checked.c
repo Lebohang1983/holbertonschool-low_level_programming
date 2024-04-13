@@ -1,0 +1,20 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/** 
+ *void *malloc_checked- function that allocates memory
+ *@ptr- returned pointer
+ *@i- size of string
+ */
+void *malloc_checked(unsighned int b)
+{
+	unsigned int *ptr;
+
+	ptr = malloc(size_of(b));
+	if (ptr == Null)
+	       exit 98;
+	_putchar(ptr);
+	free(ptr);
+
+}
