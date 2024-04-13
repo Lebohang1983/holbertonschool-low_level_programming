@@ -8,4 +8,11 @@
  */
 void *malloc_checked(unsigned int b);
 
+/**
+ *string_nconcat- function that concatenates two strings
+ * @i: size of s2
+ * Return: NULL
+ */
+char *string_nconcat(char *s1, char *s2, unsigned int n);
+
 #endif 
