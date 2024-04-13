@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /** 
- *void *malloc_checke- function that allocates memory
+ *malloc_checke- function that allocates memory
  *@ptr- returned pointer
  *@i- size of string
  */

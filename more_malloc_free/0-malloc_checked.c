@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *void *malloc_checked- function that allocates memory
+ *malloc_checked- function that allocates memory
  *@ptr- returned pointer
  *@i- size of string
  */
