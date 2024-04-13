@@ -4,21 +4,21 @@
 
 /**
  *string_nconcat- function that concatenates two strings
- * @i: size of s2
+ * @s1: character to be concatenated
+ * @s2: character to be concatenated
  * Return: NULL
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
-	int i;
 
-	if (n >= s2[i])
+	if (n >= sizeof(s2))
 	{
 		ptr = malloc(sizeof(s1) + sizeof(s2) + 1);
 	}
 	else 
 	{
-		ptr = malloc(sizeof(s1) + sizeof(s2[n] + 1);
+		ptr = malloc(sizeof(s1) + sizeof(s2)[n] + 1);
 	}
 
 	if (ptr == NULL)
