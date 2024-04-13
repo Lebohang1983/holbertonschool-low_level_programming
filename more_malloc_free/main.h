@@ -6,6 +6,6 @@
  *@ptr- returned pointer
  *@i- size of string
  */
-void *malloc_checked(unsighned int b);
+void *malloc_checked(unsigned int b);
 int _putchar(char c);
 #endif 
