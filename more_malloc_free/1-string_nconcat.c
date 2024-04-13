@@ -8,7 +8,7 @@
  * @s2: character to be concatenated
  * Return: NULL
  */
- char *string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *str;
 	unsigned int i, a, b;
