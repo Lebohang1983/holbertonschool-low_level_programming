@@ -6,6 +6,7 @@
  *string_nconcat- function that concatenates two strings
  * @s1: character to be concatenated
  * @s2: character to be concatenated
+ * @n: amount of s2 to copy
  * Return: NULL
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
