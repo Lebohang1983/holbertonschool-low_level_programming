@@ -21,6 +21,7 @@ void *malloc_checked(unsigned int b);
  *void *_calloc- function that allocates memory for an array
  * nmemb: number of elements in the array to be allocated memory
  * @i: size of array
+ * Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size);
 #endif 
