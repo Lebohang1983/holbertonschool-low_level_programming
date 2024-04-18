@@ -24,4 +24,13 @@ void *malloc_checked(unsigned int b);
  * Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size);
+
+/**
+ *int *array_range: Creates an array of intergers
+ *@min: all minimum values
+ *@max: all maximum values
+ *Return: pointer
+ */
+int *array_range(int min, int max);
+
 #endif 
