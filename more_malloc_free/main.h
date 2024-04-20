@@ -29,7 +29,7 @@ void *_calloc(unsigned int nmemb, unsigned int size);
  *array_range - creates an array of intergers
  *@min: all minimum values
  *@max: all maximum values
- *return: integer
+ *Return: integer
  */
 int *array_range(int min, int max);
 
