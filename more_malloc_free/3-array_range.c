@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- *array_range: creates an array of intergers
+ *int *array_range: creates an array of intergers
  *@min: all minimum values
  *@max: all maximum values
  *return: pointer
