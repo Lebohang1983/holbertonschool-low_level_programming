@@ -7,10 +7,13 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-    init_dog struct dog;
-
-    struct dog.name = "Poppy";
-    struct dog.age = 3.5;
-    struct dog.owner = "Bob"
+	struct dog *d;
+	char *name;
+	float age;
+	char *owner;
+	
+	d.name = "Poppy";
+	d.age = 3.5;
+	d.owner = "Bob"
 }
 
