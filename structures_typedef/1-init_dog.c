@@ -7,11 +7,9 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog user;
-
-	d = user;
-	user->name = "Poppy";
-	user->age = 3.5;
-	user->owner = "Bob";
+	
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
 }
 
