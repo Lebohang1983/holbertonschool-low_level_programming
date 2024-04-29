@@ -15,7 +15,7 @@ struct dog
 };
 
 /**
- * init_dog - function that initialises a variable of type struct dog
+ * init_dog - initialises a variable of type struct dog
  * @d: pointer to the variable struct dog
  * @name: name of dog
  * @age: age of dog
