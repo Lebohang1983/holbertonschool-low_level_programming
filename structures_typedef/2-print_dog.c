@@ -13,9 +13,9 @@
 void print_dog(struct dog *d)
  
 {
-	name char;
-	age float;
-	owner char;
+       	char name;
+	float age;
+	char owner;
 
 	if ((name||age||owner) = NULL)
 	{
