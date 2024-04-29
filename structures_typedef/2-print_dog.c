@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <stddef.h>
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * print_dog - function that prints struct dog
  * @d: pointer to the variable struct dog
@@ -17,15 +17,33 @@ void print_dog(struct dog *d)
 	float age;
 	char owner;
 
-	if ((name||age||owner) = NULL)
-	{
-		printf("%s \n","%f \n","%s \n",nil)
-
-	else
-		printf("%s \n","%f \n","%s \n",Poppy,3.5,Bob)
-
-	}
 	if (d = NULL)
-		printf()
+	{
+		printf();
+	}
+
+	if (name != NULL)
+
+	{
+		printf("%s\n",Poppy);
+	}
+	else {
+		printf("%s\n",nil);
+	}
+
+	if (age != NULL)
+	{
+		printf("%f\n",3.5);
+	}
+	else {
+		printf("%s\n",nil);
+	} 
+	if (owner != NULL)
+	{
+		printf("%s\n",Bob);
+	}
+	else {
+		printf("%s\n",nil);
+	}
 }
 
