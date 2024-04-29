@@ -22,28 +22,19 @@ void print_dog(struct dog *d)
 		printf();
 	}
 
-	if (name != NULL)
+	if (d != NULL)
 
 	{
-		printf("%s\n",Poppy);
-	}
-	else {
-		printf("%s\n",nil);
+		printf("%s\n",name);
 	}
 
-	if (age != NULL)
+	if (d != NULL)
 	{
-		printf("%f\n",3.5);
+		printf("%f\n",age);
 	}
-	else {
-		printf("%s\n",nil);
-	} 
-	if (owner != NULL)
+	if (d != NULL)
 	{
-		printf("%s\n",Bob);
-	}
-	else {
-		printf("%s\n",nil);
+		printf("%s\n",owner);
 	}
 }
 
